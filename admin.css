@@ -1,0 +1,39 @@
+body{
+	width: 960px;
+	margin: 0 auto;
+	color: yellow;
+	font-weight: bold;
+	font-size: 16px;
+}
+section{	
+	margin: 0 auto;		
+	background-color: #4F5ECC;
+	border-style: solid;
+}
+section > div{
+	width: 800px;	
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
+}
+div > table{
+	margin: 0 auto;
+	padding: 30px;
+}
+td, th {
+  text-align: left;
+  width: 150px;
+  border-style: groove;
+}
+section > div > button{
+	margin-top: 5%;
+}
+button, input{
+	border-radius: 20px;
+	font-size: 16px;
+	text-align: center;
+}
+#cabecera, td, th{
+	background-color: yellow;
+	color: black;
+}

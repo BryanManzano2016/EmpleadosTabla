@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Admin</title>
+	<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+	<div id="caja">
+
+		<section id="sectionLista" class="secciones">
+			<div id="cajaLista">
+				<h1>LISTA DE PERSONAL</h1>
+				<button id="btnAgregar">AGREGAR</button>
+				<table id="tabla">
+  				  	<tr id="cabecera">
+						<th>ID</th>
+						<th>CEDULA</th>
+						<th>NOMBRE</th>
+						<th>SALARIO</th>	
+						<th>EDITAR</th>
+						<th>ELIMINAR</th>					
+					</tr>
+				</table>
+				MODO LOG:<br>
+				Consola<input type="checkbox" id="consoleCheck">
+				File<input type="checkbox" id="fileCheck">
+			</div>					
+		</section>
+
+		<section id="sectionCrear" class="secciones">
+			<div id="formulario">
+				<p>CEDULA:</p><input type="text" id="cedula"><br>
+				<p>NOMBRE:</p><input type="text" id="nombre"><br>
+				<p>SALARIO:</p><input type="text" id="salario"><br>
+				<button id="btnEnviar">Enviar</button>
+				<button id="btnEnviar2">Actualizar</button>
+				<button id="btnRegresar">Atras</button>
+			</div>
+		</section>	
+
+	</div>
+	
+	<script src="admin.js"></script>
+</body>
+</html>
